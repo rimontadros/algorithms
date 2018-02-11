@@ -1,0 +1,56 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "clean",
+            "type": "shell",
+            "command": "rm",
+            "args": [
+                "-r",
+                "maximum-rectangular-area-in-histogram/out/output*",
+                "coin-changing-number-of-ways-to-get-total-dynamic-programming/out/output*"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "maximum-rectangular-area-in-histogram",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-o",
+                "maximum-rectangular-area-in-histogram/out/output",
+                "-g",
+                "maximum-rectangular-area-in-histogram/src/code.cpp"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "coin-changing-number-of-ways-to-get-total-dynamic-programming",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-std=c++11",
+                "-o",
+                "coin-changing-number-of-ways-to-get-total-dynamic-programming/out/output",
+                "-g",
+                "coin-changing-number-of-ways-to-get-total-dynamic-programming/src/code.cpp"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        }
+
+    ]
+}

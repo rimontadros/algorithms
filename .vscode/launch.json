@@ -1,0 +1,32 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "maximum-rectangular-area-in-histogram",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/maximum-rectangular-area-in-histogram/out/output",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb"
+        },
+        {
+            "name": "coin-changing-number-of-ways-to-get-total-dynamic-programming",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/coin-changing-number-of-ways-to-get-total-dynamic-programming/out/output",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb"
+        }
+    ]
+}
