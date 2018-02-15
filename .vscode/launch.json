@@ -27,6 +27,18 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "lldb"
+        },
+        {
+            "name": "counter-game",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/counter-game/out/output",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb"
         }
     ]
 }

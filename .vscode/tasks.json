@@ -10,7 +10,8 @@
             "args": [
                 "-r",
                 "maximum-rectangular-area-in-histogram/out/output*",
-                "coin-changing-number-of-ways-to-get-total-dynamic-programming/out/output*"
+                "coin-changing-number-of-ways-to-get-total-dynamic-programming/out/output*",
+                "counter-game/out/output*"
             ],
             "group": {
                 "kind": "build",
@@ -50,7 +51,23 @@
                 "isDefault": true
             },
             "problemMatcher": []
+        },
+        {
+            "label": "counter-game",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-std=c++11",
+                "-o",
+                "counter-game/out/output",
+                "-g",
+                "counter-game/src/code.cpp"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
         }
-
     ]
 }
